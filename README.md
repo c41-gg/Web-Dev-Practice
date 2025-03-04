@@ -1,5 +1,5 @@
-ShulaTech Solutions Internship Program\n
-Front-End Development Intern\n
-Week 1\n
-Project No. 1\n
+ShulaTech Solutions Internship Program
+Front-End Development Intern
+Week 1
+Project No. 1
 Personal Portfolio
