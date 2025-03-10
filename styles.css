@@ -1,0 +1,188 @@
+
+:root{
+    --background:#131314;
+    --text: #ececec;
+    --primary: #247BA0;
+    --secondary: #70C1B3;
+    --accent: #FFE066;
+}
+
+body{
+    background-color: var(--background);
+    color: var(--text);
+    font-family: 'Noto Sans', serif;
+}
+
+h1,h4{
+    display: inline; 
+    vertical-align: bottom;
+}
+
+h4{
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+.navbar{
+    background: linear-gradient(90deg, var(--background), rgb(19,19,20,0.5));
+    width: 100%;
+    margin-top: -125px;
+    margin-left: -20px;
+    padding: 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    
+}
+
+
+.main{
+    margin-top: 125px;
+    display: inline-flexbox;
+}
+
+.left {
+    float:left;
+    display:flex;
+}
+.right{
+    float: right;
+    display:flex;
+}
+
+nav ul {
+    list-style-type: none;
+    position: fixed;
+    font-size: 20px;
+    top: 0;
+    width: 100%;
+    margin-top: 60px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    z-index: 3;
+  } 
+ 
+    nav li a {
+      
+      font-weight: 500;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      height: 100%;
+    }
+  
+    nav li a:hover {
+      color: var(--primary)
+    }
+
+
+
+#bio{
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+    background:linear-gradient(0deg, var(--background), var(--primary))
+}
+    #bio h3{
+        padding: 10vh;
+        font-size: 80px;
+    }
+
+#skills{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    justify-content: space-around;
+}
+    
+    #skills h3{
+        width: 15vw;
+        font-size:xx-large;
+        padding: 20px;
+    }
+
+.skill{
+    display: flex;
+    justify-content: space-between;
+}
+
+#experience{
+    background: linear-gradient(to top, rgba(19,19,20,0.5)50%,rgba(19,19,20,1)100%), url(assets/gameboy_cam_photo-msc.png);
+    background-size: cover;
+    align-items: center;
+    vertical-align: text-top;
+    text-align: center;
+    height: 40vh;
+    padding: 5vh;
+}
+
+table{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+
+tr{
+    padding: 10px;
+}
+
+td{
+    padding-right: 20px;
+}
+
+th{
+    padding-top:20px;
+}
+
+.contact{
+    height: 20vh;
+    padding: 5vh;
+    
+}
+.contacts{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-content: center;
+}
+.contact-logo{
+    width: 100px;
+    padding: 10px;
+}
+
+.contact h3{
+    text-align: center;
+}
+
+.contact p{
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color:var(--text)
+}
+
+footer{
+    margin-top: 100px;
+    color: var(--background);
+    background-color: var(--secondary);
+    width: 100%;
+    padding:15px;
+    margin-left: -10px;
+    padding-right:-15px;
+}
+
+.footer{
+    display: inline-flex;
+}
+
+footer p{
+    background-color: var(--secondary);
+    
+}
+
+
