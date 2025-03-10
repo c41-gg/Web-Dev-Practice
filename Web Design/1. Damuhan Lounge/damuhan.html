@@ -1,0 +1,132 @@
+<!--
+Create an HTML with CSS file with the following tags discussed earlier: 20 points each
+linked css file--
+images--
+links--
+ordered and unordered lists
+background
+Extra points:
+embed a video (url or from local file) (10 points)
+audio (10 points)
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="damuhan.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--header section-->
+        <header class="header">
+            <a href="#" class="logo">
+                <img id="pic" src="assets/DamuhanLounge.png" alt="DamuhanLounge Logo"> 
+                Damuhan Lounge                
+            </a>       
+        </header >
+
+        <!--Navigation Bar-->
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>           
+            <li><a href="#contact">Contact</a></li>
+            <li> </li>
+            <li style="float:right">
+                <audio id=="audio" autoplay controls>
+                    <source src="assets/autoplay.ogg" type="audio/ogg">
+                    <source src="assets/autoplay.mp3" type="audio/mpeg">
+                </audio>
+            </li>
+        </ul>
+
+            <div id="home">
+                <div class="bannerbody">
+                    <img src="assets\banner.png" width=100%>
+                </div>
+                <div class="intro" >
+                    <p>Welcome to Damuhan Lounge, your oasis of tranquility in the bustling world. Step into a realm where the ancient art of matcha meets modern wellness, where every sip is a moment of serenity and rejuvenation.</p>
+                </div>
+            </div>  
+                
+            <div id="about" style="display:inline-block">
+                <div class="about-media" style="float: right">
+                    <video width="400px" controls>
+                        <source src="assets\about-media.mp4" type="video/mp4">
+                        <source src="assets\about-media.ogg" type="audio/ogg">
+                    </video>
+                </div> 
+                <div class="about-info">
+                    <p>At Damuhan Lounge, we are passionate about bringing you the finest quality matcha products sourced directly from the lush fields of Japan. Our curated selection includes premium matcha powders, exquisite ceremonial sets, and a range of accessories to elevate your matcha experience to new heights.</p>
+                </div>       
+            </div>
+            <br>
+            <br>
+            
+            <div id="products">
+                <br>
+                <h2>Experience the Greatness of Matcha</h2>
+                <ol>
+                    <div class="ceremonial">
+                        <div class="ceremonial-info" style="float:left">
+                            <h3><li>Ceremonial Grade</li></h3>
+                            <br>
+                            <P style="text-indent: 20px; text-align: justify; text-justify:distribute;">Elevate your tea ceremonies to a sublime experience with our Ceremonial Grade Matcha. Carefully handpicked from the youngest, most tender leaves of the green tea plant, this matcha boasts a vibrant green hue and a delicate, smooth flavor profile. Savor every sip as it envelops your senses with its luxurious aroma and unparalleled freshness. Perfect for traditional Japanese tea ceremonies or moments of mindful indulgence, our Ceremonial Grade Matcha is a true testament to the artistry of matcha cultivation.</P>
+                        </div>
+                        <img class="productimg" src="assets/ceremonial.jpg" style="float:right; width:100%" alt="ceremonial matcha">
+                    </div>
+
+                    <div class="cafe">
+                        <img class="productimg" src="assets/cafe.jpg" style="float:left; width:100%" alt="cafe matcha">
+                        <div class="cafe-info" style="float: right; margin:10px">
+                            <h3><li>Cafe Grade</li></h3>
+                            <br>
+                            <P style="text-indent: 20px; text-align: justify; text-justify:distribute;"">Energize your daily rituals with our Cafe Grade Matcha, crafted specifically for those seeking a balance of flavor and vitality. Sourced from premium tea leaves, this matcha powder strikes a harmonious chord between robustness and sweetness, making it an ideal companion for lattes, smoothies, and culinary creations alike. With its rich green color and mellow taste, our Cafe Grade Matcha promises a satisfying pick-me-up that invigorates both body and mind. Experience the perfect fusion of indulgence and wellness with every delicious serving.</P>
+                        </div>
+                        
+                    </div>
+
+                    <div class="culinary">
+                        <div class="culinary-info" style="float:left">
+                        <h3><li>Culinary Grade</li></h3>
+                            <br>
+                            <P style="text-indent: 20px; text-align: justify; text-justify:distribute;">Unleash your culinary creativity with our Culinary Grade Matcha, a versatile ingredient that adds a vibrant touch to your favorite recipes. Carefully selected for its bold flavor and vibrant color, this matcha powder lends a distinctive depth to everything from baked goods to savory dishes. Whether you're baking decadent desserts, whipping up savory sauces, or experimenting with innovative dishes, our Culinary Grade Matcha offers a bold, earthy flavor that enhances every bite. Elevate your culinary creations and discover the endless possibilities with our premium Culinary Grade Matcha.</P>
+                        </div>
+
+                        <img class="productimg" src="assets/culinary.jpg" style="float:right; width:100%" alt="ceremonial matcha">
+                    </div>
+
+                </ol>
+
+            </div>         
+            <div id="contact">
+                <div class="contact-info">
+                    <img src="assets/DamuhanLounge.png" width="120px">
+                    <p>Damuhan Lounge<br>
+                        #123 Commonwealth Ave.<br>
+                        Quezon City, Metro Manila, PH<br>
+                        damuhanlounge@gmail.com<br>
+                        (+63) 912 345 6789
+                    </p>
+                    <div class="socials">
+                        <p>
+                            <a href="https://www.youtube.com/watch?v=DsCd9tUdUS8&pp=ygULYXJ0bXMgYmlydGg%3D">
+                                <img src="assets\fb.png" width="40px">
+                            </a>
+    
+                            <a href="https://www.youtube.com/watch?v=DsCd9tUdUS8&pp=ygULYXJ0bXMgYmlydGg%3D">
+                                <img src="assets\ig.png" width="40px">
+                            </a>
+    
+                            <a href="https://www.youtube.com/watch?v=DsCd9tUdUS8&pp=ygULYXJ0bXMgYmlydGg%3D">
+                                <img src="assets\x.png" width="40px">
+                            </a>
+                        </p>
+                        <br><br><br>
+                    </div>
+                </div>
+                <p style="float: right"> © 2024 Damuhan Lounge Inc.</p><br>
+                
+            </div>
+    </body>
+</html>

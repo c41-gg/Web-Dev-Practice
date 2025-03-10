@@ -1,0 +1,181 @@
+:root{
+    --main-color: #AFA181;
+    --black: #313036;
+    --lmatcha: #5d8634;
+    --dmatcha: #273412; 
+    font-family: 'Roboto Slab';
+    --image-size: 800px;
+
+
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+    color: var(--main-color);
+    margin:0; padding:0;
+    width: 100%;
+    text-decoration: none;
+    position: absolute;
+    transition: .2s linear;
+    height: 100%;
+    background: rgba(39,52,18,1);
+   
+
+}
+
+.roboto-slab-extralight {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+
+
+.montserrat-bold{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+
+
+header {
+  background-color: var(--black);
+  
+}
+
+.logo {
+    color: var(--main-color);
+    text-decoration:none;
+    z-index: 3;
+    background-color: var(--black);
+    font-size: 50px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    margin: auto;
+    width: 100%;
+
+
+
+}
+#pic {
+    height: 40px;
+    width: 40px;
+}
+ul {
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 65px;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--dmatcha);
+    z-index: 3;
+  }
+  li {
+      float: left;
+    }
+  
+    li a {
+      display: inline-block;
+      font-weight: 500;
+      color: var(--main-color);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      height: 100%;
+    }
+  
+    li a:hover {
+      background-color: #191d18;
+    }
+
+  #home{
+    margin-top: 90px;
+    padding-bottom: 10px;
+    background:  rgba(49,48,54,1);
+    background: linear-gradient(0deg, rgba(39,52,18,1) , rgba(49,48,54,1) );
+
+  }
+  
+
+    
+  .intro{
+    margin-top: -82;
+    padding-left: 20px; padding-right: 20px;
+    text-align:center;
+  }
+#audio{
+  position: fixed;
+  z-index: 4;
+}
+
+#about{
+  padding-left: 20px; padding-right: 20px;
+  padding-top: 20px; padding-bottom: 20px;
+  margin-bottom: -40;
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 2fr 1fr;
+  column-gap: 20px;
+  justify-content: center;
+  background-color: #0f110f;
+  text-indent: 20px;
+  text-align: justify;
+  text-justify:distribute;
+  z-index: 1;
+  
+}
+#products{
+  text-align: center;
+  background: linear-gradient(180deg, rgb(15, 17, 15), rgba(39,52,18,1));
+  background:  rgba(39,52,18,1);
+}
+
+.productimg{
+  border: 1px solid #4d4523;
+}
+
+.ceremonial{
+  padding-left: 20px; padding-right: 20px;
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 2fr 1fr;
+  column-gap: 20px;
+}
+
+.cafe{
+  padding-left: 20px; padding-right: 20px;
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 1fr 2fr;
+  column-gap: 20px;
+}
+.culinary{
+  padding-left: 20px; padding-right: 20px;
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 2fr 1fr;
+  column-gap: 20px;
+}
+
+#contact{
+  padding-left: 20px; padding-right: 20px; padding-bottom: 30px;
+  background-color: #191d18;
+}
+.contact-info{
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 0.5fr 2fr 1fr 1fr;
+  column-gap: 20px;
+}
+
+
+
+
